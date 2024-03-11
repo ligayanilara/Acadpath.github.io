@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(4,9,30,0.7)50%,rgba(4,9,30,0.7)50%), url(5.jpg);
+    background-position: center;
+    background-size: contain;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #33FFBD;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 87px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #F8FBFB;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+ul li a:hover{
+    color: #33FFBD;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #33FFBD;
+    margin-top: 13px;
+    color: #33FFBD;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #33FFBD;
+    border: 2px solid #33FFBD;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+	padding-top: 20px;
+    padding-left: 30px;
+	padding-right: 30px;
+    padding-bottom: 50px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #33FFBD;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #33FFBD;
+    font-size: 65px
+}
+
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">GROUP 7</h2>
+            </div>
+			
+            <div class="menu">
+                <ul>
+                    <li><a href="MainPage.html">BACK</a></li>
+                    <li><a href="#">CONTENT</a></li>
+                    <li><a href="#">MEMBERS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+			<div class="search">
+                <input class="srch" type="search" name=""placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+			</div>
+				<div class="content">
+					<br>
+					<h1><br><span>PURPOSE</span></h1>
+					<p class="par">Most upcoming college students struggle in choosing the course they want to take in college, and choosing the school where they want to apply and study. Our website, Acadpath will help senior high school students in choosing the right path for them. Our main purpose is to provide information about the different cources that align with their perspective strands (STEM, ABM, GAS, TVL, ICT, etc).<br><br><b>PROS & CONS</b><br>Our website provides the pros and cons they might want to consider if they choose a certain course. We will also provide videos, for example "Things you need to know before taking engineering". This way, users can make sure they will look at other aspects too when choosing their career path.<br><br><b>SCHOOL RECOMMENDATIONS</b><br>Our site will also provide lists of schools that prioritizes certain fields, and link the application form of them so the students can see it and apply to them.<br><br><b>QUIZ</b><br>Aside from informations we provide, our users can also take quizzes that will show results of recommendations and suggestion courses that align with their answer (examples: it aligns with their hobbies, strength, talent, etc)<br><br><b>LETTER FOR FUTURE SELF</b><br>Our site also has an option where the users can send a letter for the future selves. A letter that they can customize and choose a date where they will receive it in the future. This will motivate them and will remind them what their dreams are when they are in senior high school.
+				</div> 
+		</div>
+	</div>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
